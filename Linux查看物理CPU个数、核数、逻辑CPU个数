@@ -1,11 +1,11 @@
-<h>概念</h>
+#概念
            
-    ① 物理CPU 
+    ##① 物理CPU 
               
        实际Server中插槽上的CPU个数
        物理cpu数量，可以数不重复的 physical id 有几个
            
-    ② 逻辑CPU 
+    ##② 逻辑CPU 
               
        Linux用户对 /proc/cpuinfo 这个文件肯定不陌生. 它是用来存储cpu硬件信息的
        信息内容分别列出了processor 0 – n 的规格。这里需要注意，如果你认为n就是真实的cpu数的话, 就大错特错了
@@ -13,7 +13,7 @@
        逻辑CPU数量=物理cpu数量 x cpu cores 这个规格值 x 2(如果支持并开启ht)
        备注一下：Linux下top查看的CPU也是逻辑CPU个数
               
-     ③ CPU核数
+    ##③ CPU核数
            
         一块CPU上面能处理数据的芯片组的数量、比如现在的i5 760,是双核心四线程的CPU、而 i5 2250 是四核心四线程的CPU
               
